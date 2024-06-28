@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter</title>
+    <style>
+        body{
+            overflow: hidden;
+            margin: 0;
+            background-color: black;
+        }
+        canvas{
+            background-color: #2a2a47;
+            display: block;
+            margin: 0 auto;
+            border: 1px dashed white;
+            position: relative;
+        }
+        #pause,#restart{
+            position: absolute;
+        }
+        h1{
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Space Shooter</h1>
+    <div>
+    <canvas id="canvas"></canvas>
+    <button id="pause">||</button>
+    <button id="restart">↻</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
